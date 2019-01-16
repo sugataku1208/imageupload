@@ -24,42 +24,8 @@ if (!empty($_FILES)) {
 <html>
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
   <title>ホームページのタイトル</title>
-  <style>
-    body {
-      margin: 0 auto;
-      padding: 150px;
-      width: 25%;
-      background: #fbfbfa;
-    }
-
-    h1 {
-      color: #545454;
-      font-size: 20px;
-    }
-
-    form {
-      overflow: hidden;
-    }
-
-    input[type="submit"] {
-      border: none;
-      padding: 15px 30px;
-      margin-bottom: 15px;
-      background: #3d3938;
-      color: white;
-      float: right;
-    }
-
-    input[type="submit"]:hover {
-      background: #111;
-      cursor: pointer;
-    }
-
-    .img_area, .img_area img {
-      width: 100%;
-    }
-  </style>
 </head>
 <body>
 
